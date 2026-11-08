@@ -22,11 +22,13 @@ msgid ""
 "<span class=\"text-muted\">NB: This will archive the selected tasks (Except the destination task)\n"
 "                    </span>"
 msgstr ""
+"<span class=\"text-muted\">Nota: esto archivará las tareas seleccionadas (excepto la tarea de destino)\n"
+"                    </span>"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__user_ids
 msgid "Assignees"
-msgstr ""
+msgstr "Asignados"
 
 #. module: project_merge
 #: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
@@ -51,7 +53,7 @@ msgstr "Creado en"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_project_id
 msgid "Destination Project"
-msgstr ""
+msgstr "Proyecto de destino"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__display_name
@@ -76,17 +78,17 @@ msgstr "Última actualización el"
 #. module: project_merge
 #: model:ir.actions.act_window,name:project_merge.action_project_task_merge
 msgid "Merge Project Tasks"
-msgstr ""
+msgstr "Fusionar tareas de proyecto"
 
 #. module: project_merge
 #: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
 msgid "Merge Tasks"
-msgstr ""
+msgstr "Fusionar tareas"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_task_id
 msgid "Merge into an existing task"
-msgstr ""
+msgstr "Fusionar en una tarea existente"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_task_name
@@ -96,9 +98,9 @@ msgstr "Nombre nueva tarea"
 #. module: project_merge
 #: model:ir.model,name:project_merge.model_project_task_merge
 msgid "Project Task Merge"
-msgstr ""
+msgstr "Fusión de tareas de proyecto"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__task_ids
 msgid "Tasks to Merge"
-msgstr ""
+msgstr "Tareas a fusionar"
